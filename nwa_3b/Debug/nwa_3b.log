@@ -1,0 +1,186 @@
+﻿Build started 10/22/2012 6:32:25 PM.
+     1>Project "C:\Users\nwani.m\Documents\Visual Studio 2010\Projects\nwa_3b\nwa_3b\nwa_3b.vcxproj" on node 2 (ClCompile target(s)).
+     1>ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt nwa_3b.cpp
+         nwa_3b.cpp
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(7): error C2011: 'baseException' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(7) : see declaration of 'baseException'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(28): error C2011: 'memoryAllocationError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(28) : see declaration of 'memoryAllocationError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(37): error C2011: 'rangeError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(37) : see declaration of 'rangeError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(46): error C2011: 'indexRangeError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(46) : see declaration of 'indexRangeError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(63): error C2011: 'underflowError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(63) : see declaration of 'underflowError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(72): error C2011: 'overflowError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(72) : see declaration of 'overflowError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(81): error C2011: 'expressionError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(81) : see declaration of 'expressionError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(90): error C2011: 'referenceError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(90) : see declaration of 'referenceError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(99): error C2011: 'notImplementedError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(99) : see declaration of 'notImplementedError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(108): error C2011: 'dateError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(108) : see declaration of 'dateError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(125): error C2011: 'graphError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(125) : see declaration of 'graphError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(134): error C2011: 'fileOpenError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(134) : see declaration of 'fileOpenError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(151): error C2011: 'fileError' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_except.h(151) : see declaration of 'fileError'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(25): error C2440: '<function-style-cast>' : cannot convert from 'const char [44]' to 'fileError'
+                 Source or target has incomplete type
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(25): error C3861: 'fileError': identifier not found
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(45): error C2953: 'matrix' : class template has already been defined
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(10) : see declaration of 'matrix'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(51): error C2244: 'matrix<T>::matrix' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(12) : see declaration of 'matrix<T>::matrix'
+                 definition
+                 'matrix::matrix(int,int,const T &)'
+                 existing declarations
+                 'matrix<T>::matrix(int,int,const T &)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(63): error C2244: 'matrix<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'std::vector<T> &matrix::operator [](int)'
+                 existing declarations
+                 'const std::vector<T> &matrix<T>::operator [](int) const'
+                 'std::vector<T> &matrix<T>::operator [](int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(75): error C2244: 'matrix<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'const std::vector<T> &matrix::operator [](int) const'
+                 existing declarations
+                 'const std::vector<T> &matrix<T>::operator [](int) const'
+                 'std::vector<T> &matrix<T>::operator [](int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(81): error C2244: 'matrix<T>::rows' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(28) : see declaration of 'matrix<T>::rows'
+                 definition
+                 'int matrix::rows(void) const'
+                 existing declarations
+                 'int matrix<T>::rows(void) const'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(87): error C2244: 'matrix<T>::cols' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(30) : see declaration of 'matrix<T>::cols'
+                 definition
+                 'int matrix::cols(void) const'
+                 existing declarations
+                 'int matrix<T>::cols(void) const'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(108): error C2244: 'matrix<T>::resize' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(33) : see declaration of 'matrix<T>::resize'
+                 definition
+                 'void matrix::resize(int,int)'
+                 existing declarations
+                 'void matrix<T>::resize(int,int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(45): error C2953: 'matrix' : class template has already been defined
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(10) : see declaration of 'matrix'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(51): error C2244: 'matrix<T>::matrix' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(12) : see declaration of 'matrix<T>::matrix'
+                 definition
+                 'matrix::matrix(int,int,const T &)'
+                 existing declarations
+                 'matrix<T>::matrix(int,int,const T &)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(63): error C2244: 'matrix<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'std::vector<T> &matrix::operator [](int)'
+                 existing declarations
+                 'const std::vector<T> &matrix<T>::operator [](int) const'
+                 'std::vector<T> &matrix<T>::operator [](int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(75): error C2244: 'matrix<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'const std::vector<T> &matrix::operator [](int) const'
+                 existing declarations
+                 'const std::vector<T> &matrix<T>::operator [](int) const'
+                 'std::vector<T> &matrix<T>::operator [](int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(81): error C2244: 'matrix<T>::rows' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(28) : see declaration of 'matrix<T>::rows'
+                 definition
+                 'int matrix::rows(void) const'
+                 existing declarations
+                 'int matrix<T>::rows(void) const'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(87): error C2244: 'matrix<T>::cols' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(30) : see declaration of 'matrix<T>::cols'
+                 definition
+                 'int matrix::cols(void) const'
+                 existing declarations
+                 'int matrix<T>::cols(void) const'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(108): error C2244: 'matrix<T>::resize' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(33) : see declaration of 'matrix<T>::resize'
+                 definition
+                 'void matrix::resize(int,int)'
+                 existing declarations
+                 'void matrix<T>::resize(int,int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(11): error C2011: 'Grid' : 'class' type redefinition
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(11) : see declaration of 'Grid'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19): error C2027: use of undefined type 'Grid'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(11) : see declaration of 'Grid'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19): error C2146: syntax error : missing ')' before identifier 'filename'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19): error C2146: syntax error : missing ';' before identifier 'filename'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19): error C2079: 'string' uses undefined class 'Grid'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19): error C2059: syntax error : ')'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19): error C2470: 'filename' : looks like a function definition, but there is no parameter list; skipping apparent body
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(45): error C2953: 'matrix' : class template has already been defined
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(10) : see declaration of 'matrix'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(51): error C2244: 'matrix<T>::matrix' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(12) : see declaration of 'matrix<T>::matrix'
+                 definition
+                 'matrix::matrix(int,int,const T &)'
+                 existing declarations
+                 'matrix<T>::matrix(int,int,const T &)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(63): error C2244: 'matrix<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'std::vector<T> &matrix::operator [](int)'
+                 existing declarations
+                 'const std::vector<T> &matrix<T>::operator [](int) const'
+                 'std::vector<T> &matrix<T>::operator [](int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(75): error C2244: 'matrix<T>::operator []' : unable to match function definition to an existing declaration
+                 definition
+                 'const std::vector<T> &matrix::operator [](int) const'
+                 existing declarations
+                 'const std::vector<T> &matrix<T>::operator [](int) const'
+                 'std::vector<T> &matrix<T>::operator [](int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(81): error C2244: 'matrix<T>::rows' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(28) : see declaration of 'matrix<T>::rows'
+                 definition
+                 'int matrix::rows(void) const'
+                 existing declarations
+                 'int matrix<T>::rows(void) const'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(87): error C2244: 'matrix<T>::cols' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(30) : see declaration of 'matrix<T>::cols'
+                 definition
+                 'int matrix::cols(void) const'
+                 existing declarations
+                 'int matrix<T>::cols(void) const'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(108): error C2244: 'matrix<T>::resize' : unable to match function definition to an existing declaration
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\d_matrix.h(33) : see declaration of 'matrix<T>::resize'
+                 definition
+                 'void matrix::resize(int,int)'
+                 existing declarations
+                 'void matrix<T>::resize(int,int)'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(17): error C2872: 'string' : ambiguous symbol
+                 could be 'c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19) : int string'
+                 or       'c:\program files\microsoft visual studio 10.0\vc\include\xstring(2062) : std::string'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(17): error C2872: 'string' : ambiguous symbol
+                 could be 'c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19) : int string'
+                 or       'c:\program files\microsoft visual studio 10.0\vc\include\xstring(2062) : std::string'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(17): error C2923: 'std::vector' : 'string' is not a valid template type argument for parameter '_Ty'
+                 c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19) : see declaration of 'string'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(29): error C2440: '<function-style-cast>' : cannot convert from 'const char [44]' to 'fileError'
+                 Source or target has incomplete type
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(29): error C3861: 'fileError': identifier not found
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(36): error C2872: 'string' : ambiguous symbol
+                 could be 'c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19) : int string'
+                 or       'c:\program files\microsoft visual studio 10.0\vc\include\xstring(2062) : std::string'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(36): error C2872: 'string' : ambiguous symbol
+                 could be 'c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\grid.h(19) : int string'
+                 or       'c:\program files\microsoft visual studio 10.0\vc\include\xstring(2062) : std::string'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(36): error C2146: syntax error : missing ';' before identifier 's'
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(36): error C2065: 's' : undeclared identifier
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(37): error C2065: 's' : undeclared identifier
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(38): error C2065: 's' : undeclared identifier
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(38): error C2228: left of '.length' must have class/struct/union
+                 type is ''unknown-type''
+     1>c:\users\nwani.m\documents\visual studio 2010\projects\nwa_3b\nwa_3b\dictionary.h(38): fatal error C1903: unable to recover from previous error(s); stopping compilation
+     1>Done Building Project "C:\Users\nwani.m\Documents\Visual Studio 2010\Projects\nwa_3b\nwa_3b\nwa_3b.vcxproj" (ClCompile target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.49
